@@ -5,8 +5,16 @@ using namespace std;
 double hitungLuas(double r) {
     float PHI = 3.14159;
     return PHI*r*r;
-    return PHI*2*r;
+    endl;
 }
+
+// fungsi menghitung keliling
+HitungLuas (double r){
+    float PHI = 3.14159;
+    return PHI*double*r;
+    endl;
+}
+
 
 int main() {
     double jari;
