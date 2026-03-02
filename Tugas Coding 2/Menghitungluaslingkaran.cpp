@@ -5,7 +5,8 @@ using namespace std;
 double hitungLuas(double r) {
     float PHI = 3.14159;
     return PHI*r*r;
-    return PHI 2*r;
+    float PHI = 3.14159;
+    return PHI*2*r;
 }
 
 int main() {
