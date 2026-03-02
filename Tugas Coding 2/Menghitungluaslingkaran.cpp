@@ -12,7 +12,7 @@ int main() {
     
     // prosedur input
     cout << "Masukkan jari-jari lingkaran: "
-    << endl;
+    << endl ;
     cin >> jari;
     
     // panggil fungsi hitung luas
