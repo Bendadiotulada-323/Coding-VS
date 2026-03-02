@@ -3,7 +3,7 @@ using namespace std;
 
 // fungsi menghitung luas
 double hitungLuas(double r) {
-    const double PHI = 3.14159;
+    float PHI = 3.14159;
     return PHI * r * r;
 }
 
