@@ -4,14 +4,15 @@ using namespace std;
 // fungsi menghitung luas
 double hitungLuas(double r) {
     float PHI = 3.14159;
-    return PHI * r * r;
+    return PHI*r*r;
 }
 
 int main() {
     double jari;
     
     // prosedur input
-    cout << "Masukkan jari-jari lingkaran: ";
+    cout << "Masukkan jari-jari lingkaran: "
+    << endl;
     cin >> jari;
     
     // panggil fungsi hitung luas
