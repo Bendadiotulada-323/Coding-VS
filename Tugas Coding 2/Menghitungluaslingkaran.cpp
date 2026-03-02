@@ -5,6 +5,7 @@ using namespace std;
 double hitungLuas(double r) {
     float PHI = 3.14159;
     return PHI*r*r;
+    return PHI 2*r;
 }
 
 int main() {
@@ -14,7 +15,8 @@ int main() {
     cout << "Masukkan jari-jari lingkaran: "
     << endl ;
     cin >> jari;
-        cout << "masukan Diamter Lingkaran"
+    cout << "Masukan Diameter lingkaran: "
+    << endl;
     
     // panggil fungsi hitung luas
     double luas = hitungLuas(jari);
