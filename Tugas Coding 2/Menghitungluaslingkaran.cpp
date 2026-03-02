@@ -17,6 +17,7 @@ int main() {
     cin >> jari;
     cout << "Masukan Diameter lingkaran: "
     << endl;
+    cin >> jari;
     
     // panggil fungsi hitung luas
     double luas = hitungLuas(jari);
